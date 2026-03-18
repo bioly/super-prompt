@@ -14,8 +14,12 @@ Single source of truth for rules, coding standards, and prompts across all AI co
 ## Folder Structure
 
 ```
+README.md                    # This file
+CLAUDE.md                    # Claude Code entrypoint (root)
+AGENTS.md                    # Codex / OpenAI entrypoint (root)
+.github/
+  copilot-instructions.md    # GitHub Copilot entrypoint
 ai/
-  README.md                  # This file
   core/
     agents.md                # Root spec: philosophy, constraints, AI behaviour
     product.md               # Project context, domain, goals (fill this in)
@@ -37,12 +41,6 @@ ai/
     command-schema.md        # How to declare slash commands
     skill-schema.md          # How to model reusable skills
     multi-agent-patterns.md  # Patterns for multi-agent orchestration
-
-# Adapter files at each tool's canonical location:
-CLAUDE.md                    # Claude Code entrypoint (root)
-AGENTS.md                    # Codex / OpenAI entrypoint (root)
-.github/
-  copilot-instructions.md    # GitHub Copilot entrypoint
 ```
 
 ---
